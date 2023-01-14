@@ -1,0 +1,13 @@
+quarkus:
+  http:
+    port: 8080
+    test-port: 8081
+  grpc:
+    server:
+      port: 8080
+      enable-reflection-service: true
+      use-separate-server: false
+      test-port: 8081
+  generate-code:
+    grpc:
+      scan-for-imports: all
