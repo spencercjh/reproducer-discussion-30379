@@ -8,6 +8,13 @@ quarkus:
       enable-reflection-service: true
       use-separate-server: false
       test-port: 8081
+  # If I uncomment the following configs, the test will be failed.
+  # Reference: https://github.com/quarkusio/quarkus/discussions/30379#discussioncomment-4699893
+  #    clients:
+  #      stub:
+  #        use-quarkus-grpc-client: true
+  #        host: localhost
+  #        port: 8081
   generate-code:
     grpc:
       scan-for-imports: all

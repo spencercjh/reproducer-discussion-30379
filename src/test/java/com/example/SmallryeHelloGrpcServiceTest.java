@@ -11,7 +11,7 @@ import java.time.Duration;
 import org.junit.jupiter.api.Test;
 
 @QuarkusTest
-public class SmallryeHelloGrpcServiceTest {
+class SmallryeHelloGrpcServiceTest {
 
   @SuppressWarnings("CdiInjectionPointsInspection")
   @GrpcClient
